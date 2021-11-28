@@ -1,6 +1,4 @@
-
-  
-<template>
+  <template>
   <h1>Jobs</h1>
   <div v-for="job in jobs" :key="job.id">
     <h2>{{ job.title }}</h2>
@@ -13,6 +11,7 @@ export default {
     return {
       jobs: [
         { title: 'Cia AEM Developer', id: 1, details: 'lorem1' },
+        { title: 'Cia MERN-STACK Developer', id: 1, details: 'lorem1' },
         { title: 'Cia Web Developer', id: 2, details: 'lorem2' },
         { title: 'Cia Vue Developer', id: 3, details: 'lorem3' },
       ],
