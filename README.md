@@ -1,19 +1,7 @@
-# vue-routing-0
+#vue-routing-0
 
-## Project setup
-```
-npm install
-```
+![](./public/assets/1.jpg)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+![](./public/assets/2.jpg)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./public/assets/3.jpg)
