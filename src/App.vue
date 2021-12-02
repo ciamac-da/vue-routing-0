@@ -1,5 +1,5 @@
 <template>
-<div id="nav">
+  <div id="nav">
     <router-link to="/">Home</router-link>
     <router-link :to="{ name: 'About' }">About</router-link>
     <router-link :to="{ name: 'Jobs' }">Jobs</router-link>
@@ -7,27 +7,25 @@
   <button @click="redirect">Redirect</button>
   <button @click="back">Go Back</button>
   <button @click="forward">Go Forward</button>
-  <router-view/>
+  <router-view />
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  components: {
-  },
+  name: "App",
+  components: {},
   methods: {
     redirect() {
-      this.$router.push({ name: 'Home'})
+      this.$router.push({ name: "Home" });
     },
     back() {
-      this.$router.go(-1)
+      this.$router.go(-1);
     },
     forward() {
-      this.$router.go(+1)
-    }
-  }
-}
+      this.$router.go(+1);
+    },
+  },
+};
 </script>
 
 <style>
